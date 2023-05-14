@@ -15,7 +15,7 @@ class Migration(migrations.Migration):
             name='Project',
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('nombre_producto', models.CharField(max_length=200)),
+                ('nombre', models.CharField(max_length=200)),
                 ('descripcion', models.TextField()),
                 ('categoria', models.CharField(max_length=200)),
                 ('precio', models.IntegerField()),
