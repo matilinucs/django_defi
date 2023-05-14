@@ -83,7 +83,7 @@ WSGI_APPLICATION = 'drfsimplecrud.wsgi.application'
 
 DATABASES = {
     'default': dj_database_url.config (
-        default='sqlite:///db.sqlite31',        
+        default='sqlite:///db.sqlite33',        
         conn_max_age=600    )
     }
 
